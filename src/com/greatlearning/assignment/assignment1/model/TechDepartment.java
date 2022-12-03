@@ -1,4 +1,4 @@
-package com.greatlearning.assignment.assignment1.department;
+package com.greatlearning.assignment.assignment1.model;
 
 public class TechDepartment extends SuperDepartment {
     @Override
