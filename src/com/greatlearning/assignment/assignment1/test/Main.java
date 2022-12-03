@@ -1,9 +1,9 @@
-package com.greatlearning.assignment.assignment1.main;
+package com.greatlearning.assignment.assignment1.test;
 
-import com.greatlearning.assignment.assignment1.department.AdminDepartment;
-import com.greatlearning.assignment.assignment1.department.HrDepartment;
-import com.greatlearning.assignment.assignment1.department.SuperDepartment;
-import com.greatlearning.assignment.assignment1.department.TechDepartment;
+import com.greatlearning.assignment.assignment1.model.AdminDepartment;
+import com.greatlearning.assignment.assignment1.model.HrDepartment;
+import com.greatlearning.assignment.assignment1.model.SuperDepartment;
+import com.greatlearning.assignment.assignment1.model.TechDepartment;
 
 public class Main {
     public static void main (String[] args) {
@@ -13,6 +13,7 @@ public class Main {
         System.out.println (adminDept.getTodaysWork ());
         System.out.println (adminDept.getWorkDeadline ());
         System.out.println (adminDept.isTodayAHoliday ());
+
 
         System.out.print ("\n");
 
